@@ -176,6 +176,18 @@ hr{
 /* Media Query */
 /* mobile screen */
 @media only screen and (max-width:688px) {
+   .logo{
+        margin-left: 0px;
+    }
+    .logo img{
+        padding-right:10px ;
+    }
+    .right-top{
+        margin-right: 0;
+    }
+    .right-top a,img{
+        padding-right:5px ;
+    }
     .container{
         width: 100%;
     }
@@ -193,6 +205,19 @@ hr{
 }
 /* Tablet screen */
 @media only screen and (min-width:689px) and (max-width:992px) {
+    .logo{
+        margin-left: 15px;
+    }
+    .logo img{
+        padding-right:15px ;
+    }
+    .right-top{
+        margin-right: 15px;
+    }
+    .right-top a,img{
+        padding-right:15px ;
+    }
+    
     .container{
         width: 100%;
     }
