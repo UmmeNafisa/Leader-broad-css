@@ -5,7 +5,7 @@
 /* common style or utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:  #F3F1FF;
+    background-color:  #f3f1ff;
 }
 main{
     display: flex;
@@ -23,7 +23,7 @@ main{
 
 /* Header */
 header{
-    background-color: #562EFF;
+    background-color: #542eff;
     display: flex;
     width: 100%;
     height: 94px;
@@ -172,6 +172,12 @@ hr{
 }
 .time{
     font-family: 'Open Sans', sans-serif;
+}
+
+/* extra section  */
+.display{
+    display: flex;
+    justify-content: space-around;
 }
 /* Media Query */
 /* mobile screen */
